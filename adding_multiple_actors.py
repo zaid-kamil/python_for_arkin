@@ -1,0 +1,1 @@
+# wap to create a program where you add 10 actors in a grid of 2 rows x 5 images

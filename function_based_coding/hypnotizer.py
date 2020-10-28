@@ -1,5 +1,4 @@
 import pgzrun
-import random
 
 WIDTH = 500
 HEIGHT = 500
