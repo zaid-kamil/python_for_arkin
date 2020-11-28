@@ -20,7 +20,7 @@ def detect_n_display(frame):
         coloredROI = frame[y:y+h,x:x+w]
         smile = smile_cascade.detectMultiScale(faceROI,1.8,20)
         for (sx,sy,sw,sh) in smile:
-            cv.rectangle(coloredROI,(sx,sy),((sx+sw),sy+sh),(0,255,0),3),
+            cv.rectangle(coloredROI,(sx,sy),((sx+sw),sy+sh),(0,255,0),3)
     
     cv.imshow("yop",frame)
 
