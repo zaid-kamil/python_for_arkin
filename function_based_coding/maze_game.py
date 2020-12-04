@@ -1,4 +1,9 @@
 import pgzrun
+import os
+print('-'*30)
+print(os.getcwd())
+print(os.listdir())
+print('-'*30)
 
 TILE_SIZE = 64
 # a map with 10x10 grid 
@@ -37,7 +42,7 @@ def draw():
             screen.blit(img, (x,y))
     player.draw()
     enemy1.draw()
-    screen.draw.text(msg, (4*TILE_SIZE,4*TILE_SIZE),color='red',fontsize= 100)
+    screen.draw.text(msg, (4*TILE_SIZE,4*TILE_SIZE),color='red',fontsize= 100,fontname='arial')
 
 def on_key_down(key):
     global unlock
